@@ -1,0 +1,78 @@
+h1{
+	width: 100%;
+	font-size: 15px;
+	color: white;
+	position: fixed;
+	padding: 10px;
+	left: 20px;
+	top:10px;
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 15px;
+	padding: 5px;
+	padding-left: 10px;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #008b8b;
+	font-family: Segoe UI;
+	width: 100%;
+	padding-top: 60px;
+}
+.container{
+	display: flex;
+	background-color: #019e9e;
+	justify-content: flex-start;
+	padding: 10px 10px 10px 10px;
+}
+.chatBox{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: #dcdcdc;
+	width: 300px;
+	margin: 10px;
+	border: 1px solid #dcdcdc;
+	border-radius: 8px;
+}
+.chatBox_content{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: #f5f5f5;
+	margin: 5px 15px;
+	padding: 10px;
+	border: 1px solid #f5f5f5;
+	border-radius: 8px;
+}
+.icons_right img{
+	width: 20px;
+	margin: 10px;
+}
+.icons_left img{
+	width: 20px;
+	margin: 10px 10px 10px 0px;
+}
+.icons{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 5px;
+}
+.icons_left{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 12px;
+}
+.icons_right{
+	display: flex;
+	justify-content: flex-end;
+}
+span{
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
